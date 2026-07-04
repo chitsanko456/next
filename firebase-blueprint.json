@@ -1,0 +1,67 @@
+{
+  "collections": {
+    "settings": {
+      "description": "Store shop general settings",
+      "fields": {
+        "name": "string",
+        "phone": "string",
+        "address": "string",
+        "footerMessage": "string",
+        "currency": "string"
+      }
+    },
+    "medicines": {
+      "description": "Store medicine inventory",
+      "fields": {
+        "id": "string",
+        "code": "string",
+        "name": "string",
+        "genericName": "string",
+        "category": "string",
+        "buyingPrice": "number",
+        "sellingPrice": "number",
+        "stock": "number",
+        "expiryDate": "string",
+        "minStockAlert": "number",
+        "rackNumber": "string",
+        "image": "string"
+      }
+    },
+    "vouchers": {
+      "description": "Store sale vouchers",
+      "fields": {
+        "id": "string",
+        "date": "string",
+        "items": "array",
+        "subtotal": "number",
+        "discount": "number",
+        "tax": "number",
+        "netTotal": "number",
+        "paidAmount": "number",
+        "changeAmount": "number",
+        "customerName": "string",
+        "cashierName": "string"
+      }
+    },
+    "staffMembers": {
+      "description": "Store pharmacy staff members",
+      "fields": {
+        "id": "string",
+        "name": "string",
+        "pin": "string",
+        "role": "string"
+      }
+    },
+    "auditLogs": {
+      "description": "Store system audit logs",
+      "fields": {
+        "id": "string",
+        "timestamp": "string",
+        "userName": "string",
+        "action": "string",
+        "details": "string",
+        "severity": "string"
+      }
+    }
+  }
+}

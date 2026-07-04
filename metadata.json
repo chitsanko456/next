@@ -1,0 +1,6 @@
+{
+  "name": "Pharmacy POS & Inventory",
+  "description": "ဆေးဆိုင်များအတွက် ဆေးပစ္စည်းစာရင်းသွင်းခြင်း၊ လက်ကျန်ထိန်းသိမ်းခြင်း၊ ဆေးရောင်းချခြင်းနှင့် ဘောက်ချာထုတ်ပေးခြင်း ဆော့ဖ်ဝဲ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
